@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="selectSizeWindow" prefHeight="140" stylesheets="@../styles/select-size.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.SelectSizeController">
+   <Label fx:id="selectSizeText" layoutX="40" layoutY="36" text="Select grid size:" />
+   <Spinner fx:id="selectValueSpinner" layoutX="175" layoutY="37.0" />
+   <Button fx:id="playBtn" layoutX="125" layoutY="77" onMouseClicked="#startPlaying" text="Play!" />
+   <Label fx:id="errorLabel" layoutX="40" layoutY="130" />
+</AnchorPane>

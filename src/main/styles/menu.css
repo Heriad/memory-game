@@ -1,0 +1,27 @@
+#gridPane {
+    -fx-background-color: rgb(100, 100, 100);
+    -fx-pref-height: 400;
+    -fx-pref-width: 600;
+}
+
+#welcomeLabel {
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+}
+
+#studentId {
+    -fx-font-size: 24;
+}
+
+#newGameLabel, #highScoresLabel, #exitLabel  {
+    -fx-background-color: rgb(100, 100, 100);
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-font-size: 32;
+    -fx-min-width: 200;
+    -fx-min-height: 30;
+}
+
+#newGameLabel:hover, #highScoresLabel:hover, #exitLabel:hover {
+    -fx-background-color: rgb(247, 203, 82);
+}

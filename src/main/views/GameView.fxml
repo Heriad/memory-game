@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" stylesheets="@../styles/game.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.GameController">
+   <GridPane fx:id="gridPane">
+
+      <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10" />
+      </columnConstraints>
+
+      <rowConstraints>
+         <RowConstraints maxHeight="75" minHeight="10" prefHeight="75" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10" vgrow="SOMETIMES" />
+      </rowConstraints>
+
+      <Label fx:id="timeLabel" text="Time:" GridPane.halignment="LEFT">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </Label>
+
+      <Label fx:id="timeCounter" GridPane.halignment="LEFT">
+         <GridPane.margin>
+            <Insets left="120.0" />
+         </GridPane.margin>
+      </Label>
+
+      <Label fx:id="pairsFound" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="30.0" />
+         </GridPane.margin>
+      </Label>
+
+      <Label fx:id="completedText" text="Completed:" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="105.0" />
+         </GridPane.margin>
+      </Label>
+      <BorderPane fx:id="borderPane" GridPane.rowIndex="1" />
+
+   </GridPane>
+</ScrollPane>

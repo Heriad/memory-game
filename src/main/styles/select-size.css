@@ -1,0 +1,27 @@
+#errorLabel {
+    -fx-text-fill: rgb(245, 81, 66);
+    -fx-font-size: 14;
+}
+
+#playBtn {
+    -fx-font-size: 24;
+    -fx-alignment: center;
+    -fx-min-width: 100;
+    -fx-background-color: rgb(100, 100, 100);
+    -fx-text-fill: white;
+}
+
+#playBtn:hover {
+    -fx-background-color: rgb(247, 203, 82);
+}
+
+#selectSizeText {
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+}
+
+#selectSizeWindow {
+    -fx-background-color: rgb(100, 100, 100);
+    -fx-pref-height: 150;
+    -fx-pref-width: 350;
+}

@@ -1,0 +1,12 @@
+#gridPane, #scrollPane {
+    -fx-background-color: rgb(100, 100, 100);
+}
+
+#timeLabel, #timeCounter, #completedText, #pairsFound {
+    -fx-font-size: 34;
+    -fx-text-fill: white;
+}
+
+#scrollPane > .viewport {
+    -fx-background-color: rgb(100, 100, 100);
+}

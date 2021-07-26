@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<ScrollPane fx:id="scrollPane" stylesheets="@../styles/high-scores.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.HighScoresController">
+    <VBox fx:id="vBox"/>
+</ScrollPane>

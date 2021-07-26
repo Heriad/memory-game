@@ -1,0 +1,9 @@
+#scrollPane > .viewport {
+    -fx-pref-width: 600;
+    -fx-pref-height: 400;
+    -fx-background-color: rgb(100, 100, 100);
+}
+
+#scrollPane {
+    -fx-background-color: rgb(100, 100, 100);
+}

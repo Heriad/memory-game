@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rankPane" stylesheets="@../styles/rank.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.RankController">
+    <Label fx:id="descLabel" layoutX="105" layoutY="15" text="Place your name:" />
+    <TextField fx:id="playerNameField" layoutX="75" layoutY="45" />
+    <Button fx:id="okBtn" layoutX="115" layoutY="90" onMouseClicked="#savePlayerScore" text="Ok" />
+    <Label fx:id="errorLabel" layoutX="65" layoutY="140" />
+</AnchorPane>
